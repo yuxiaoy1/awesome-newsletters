@@ -1,5 +1,6 @@
 # Awesome Newsletters ![AWESOME](https://img.shields.io/static/v1?label=🎈&message=AWESOME&color=red&labelColor=666)
 🎉A curated list of awesome newsletters for indiehackers or people interested in side projects, product, design and growth marketing.
+
 Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?](https://www.indiehackers.com/post/what-are-the-best-newsletters-youre-subscribed-to-19d46d2007)
 - [Trends.vc](http://trends.vc/) - Helping founders discover new markets and ideas
 - [Software Ideas](https://www.softwareideas.io/) - Hand-picked, validated SaaS ideas delivered straight to your inbox, with analysis of tens of thousands of companies, finding niches where bootstrappers can compete & win.
@@ -26,5 +27,7 @@ Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?
 - [Sidebar](https://sidebar.io/) - A daily curation of the five best design links on the internet. Curated by Sacha Greif.
 ### Contributing
 Contributions are very welcome.
+
 You can open an issue or make pull requests to make this project better.
+
 If you have any question about this opinionated list, do not hesitate to contact me [@Yuxiaoy1](https://twitter.com/yuxiaoy1) on Twitter or open an issue on GitHub.
