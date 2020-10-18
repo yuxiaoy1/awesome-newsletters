@@ -28,6 +28,6 @@ Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?
 ### Contributing
 Contributions are very welcome.
 
-You can open an issue or make pull requests to make this project better.
+You can [open an issue](https://github.com/Yuxiaoy1/awesome-newsletters/issues/new) or make pull requests to make this project better.
 
 If you have any question about this opinionated list, do not hesitate to contact me [@Yuxiaoy1](https://twitter.com/yuxiaoy1) on Twitter or open an issue on GitHub.
