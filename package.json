@@ -1,0 +1,27 @@
+{
+    "name": "awesome-newsletters",
+    "version": "1.0.0",
+    "description": "🎉A curated list of awesome newsletters for indiehackers or people interested in side projects, product, design and growth marketing.",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vuepress dev",
+        "build": "vuepress build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yuxiaoy1/awesome-newsletters.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Yuxiaoy1/awesome-newsletters/issues"
+    },
+    "homepage": "https://github.com/Yuxiaoy1/awesome-newsletters#readme",
+    "devDependencies": {
+        "vuepress": "^1.7.1"
+    }
+}
