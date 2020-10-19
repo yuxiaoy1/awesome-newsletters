@@ -9,7 +9,7 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
-.vuepress/dist
+# .vuepress/dist
 package-lock.json
 # 忽略使用WebStorm开发时，生成的缓存文件夹
 .idea
