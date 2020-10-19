@@ -25,7 +25,7 @@ export default {
             div.className = themeName;
         },
     },
-    created(){
+    beforeMount(){
         document.title = 'Awesome Newsletters'
     }
 };
