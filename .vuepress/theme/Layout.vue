@@ -25,13 +25,19 @@ export default {
             div.className = themeName;
         },
     },
+    created(){
+        document.title = 'Awesome Newsletters'
+    }
 };
 </script>
 <style>
 .theme-dark {
-    --bg-color: #0f0e17;
+    /* --bg-color: #0f0e17; */
+    --bg-color: #17181a;
     --heading-color: #fffffe;
-    --paragraph-color: #a7a9be;
+    /* --paragraph-color: #a7a9be; */
+    --paragraph-color: #ccc;
+    --list-bg-color: #1f2022;
     --secondary-color: #f25f4c;
     --secondary-light-color: #f25f4c77;
 }
@@ -39,6 +45,7 @@ export default {
     --bg-color: #fffffe;
     --heading-color: #0f0e17;
     --paragraph-color: #0f0e17;
+    --list-bg-color: #fffffe;
     --secondary-color: #f25f4c;
     --secondary-light-color: #f25f4c77;
 }
@@ -82,7 +89,7 @@ p {
     color: var(--paragraph-color);
     max-width: 768px;
     margin: auto;
-    padding-bottom: 2rem;
+    padding: 0 2rem 1rem 1rem;
     text-align: center;
 }
 p:nth-child(2) {
@@ -123,6 +130,7 @@ ul > li {
     padding: 1.5rem;
     margin: 1rem;
     color: var(--paragraph-color);
+    background-color: var(--list-bg-color);
     line-height: 1.5rem;
     font-weight: 600;
     border: solid 2px #000;
