@@ -1,6 +1,6 @@
 <template>
     <div class="theme-light">
-        <button class="themeBtn" @click="toggleTheme()">🌝/🌚</button>
+        <button class="themeBtn" @click="toggleTheme()">🌝<span>/</span>🌚</button>
         <Content />
     </div>
 </template>
@@ -21,13 +21,19 @@ export default {
             }
         },
         setTheme(themeName) {
-            const div = document.querySelector("[class^='theme']");
+            let div = document.querySelector("[class^='theme']");
             div.className = themeName;
+            localStorage.setItem("theme", themeName);
         },
     },
-    beforeMount(){
-        document.title = 'Awesome Newsletters'
-    }
+    mounted() {
+        document.title = "Awesome Newsletters";
+        if (localStorage.getItem("theme") === "theme-light") {
+            this.setTheme("theme-light");
+        } else if (localStorage.getItem("theme") === "theme-dark") {
+            this.setTheme("theme-dark");
+        }
+    },
 };
 </script>
 <style>
@@ -68,6 +74,9 @@ body {
     border: none;
     outline: none;
 }
+.themeBtn span{
+    color: var(--heading-color);
+}
 h1 {
     /* title */
     text-align: center;
@@ -107,6 +116,7 @@ a {
 }
 li > a {
     display: block;
+    width: max-content;
     font-size: 24px;
     text-decoration: none;
     margin-bottom: 1rem;

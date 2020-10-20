@@ -1,0 +1,32 @@
+name: update gh-pages
+
+on:
+  push:
+    branches:
+      - main
+  issue_comment:
+    types: [created, deleted]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Run deploy.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: npm install && npm run deploy
+        # package.json 中添加 "deploy": "bash deploy.sh"
