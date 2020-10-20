@@ -23,7 +23,7 @@ git commit -m 'deploy: $(date "+DATE: %Y-%m-%d TIME: %H:%M:%S")'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://yuxiaoy1:${GITHUB_TOKEN}@github.com/yuxiaoy1/awesome-newsletters.git main:gh-pages
+git push -f https://yuxiaoy1:${GITHUB_TOKEN}@github.com/yuxiaoy1/awesome-newsletters.git master:gh-pages
 
 cd -
 rm -rf .vuepress/dist
