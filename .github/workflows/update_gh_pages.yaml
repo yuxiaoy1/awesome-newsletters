@@ -38,10 +38,14 @@ jobs:
         run: npm install && npm run deploy
         # package.json 中添加 "deploy": "bash deploy.sh"
       - name: Sync to gitee
-        uses: pixta-dev/repository-mirroring-action@v1
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_TOKEN }}
         with:
-          target_repo_url: git@gitee.com:yuxiaoy1/awesome-newsletters.git
-          ssh_private_key: ${{ secrets.GITEE_TOKEN }}
+          # 注意替换为你的 GitHub 源仓库地址
+          source-repo: git@github.com:yuxiaoy1/awesome-newsletters.git
+          # 注意替换为你的 Gitee 目标仓库地址
+          destination-repo: git@gitee.com:yuxiaoy1/awesome-newsletters.git
       - name: Build gitee pages
         uses: yanglbme/gitee-pages-action@master
         with:
