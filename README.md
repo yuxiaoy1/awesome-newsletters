@@ -26,7 +26,7 @@ Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?
 - [Solo](https://solowork.co/) - A freelance business masterclass for independent designers and creatives ready for the future of work, published weekly by Benek Lisefski.
 - [Sidebar](https://sidebar.io/) - A daily curation of the five best design links on the internet. Curated by Sacha Greif.
 ### Contributing
-Contributions are very welcome🎈.
+Contributions are very welcome🎈🎈🎈.
 
 You can [open an issue](https://github.com/Yuxiaoy1/awesome-newsletters/issues/new) or make pull requests to make this project better.
 
