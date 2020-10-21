@@ -1,7 +1,12 @@
 name: update gh-pages
 
 on:
-  [push, pull_request]:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+  pull_request:
     branches:
       - main
     paths:
