@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Run deploy.sh
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: npm install && npm run deploy
         # package.json 中添加 "deploy": "bash deploy.sh"

@@ -26,4 +26,4 @@ git commit -m 'deploy: $(date "+DATE: %Y-%m-%d TIME: %H:%M:%S")'
 git push -f https://yuxiaoy1:${GITHUB_TOKEN}@github.com/yuxiaoy1/awesome-newsletters.git master:gh-pages
 
 cd -
-rm -rf .vuepress/dist
+rm -rf .vuepress/dist 
