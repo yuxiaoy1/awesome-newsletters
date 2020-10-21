@@ -1,9 +1,11 @@
 name: update gh-pages
 
 on:
-  push:
+  [push, pull_request]:
     branches:
       - main
+    paths:
+      - '**.md'
   issue_comment:
     types: [created, deleted]
 
@@ -30,3 +32,8 @@ jobs:
           # GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: npm install && npm run deploy
         # package.json 中添加 "deploy": "bash deploy.sh"
+      - name: Sync to gitee
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: git@gitee.com:yuxiaoy1/awesome-newsletters.git
+          ssh_private_key: ${{ secrets.GITEE_TOKEN }}

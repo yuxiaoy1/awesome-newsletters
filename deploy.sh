@@ -17,7 +17,7 @@ git config --global user.email "1032897296@qq.com"
 
 git init
 git add -A
-git commit -m 'deploy: $(date "+DATE: %Y-%m-%d TIME: %H:%M:%S")'
+git commit -m "deploy: $(date "+DATE: %Y-%m-%d TIME: %H:%M:%S")"
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
