@@ -6,11 +6,13 @@ on:
       - main
     paths:
       - '**.md'
+      - '**.vue'
   pull_request:
     branches:
       - main
     paths:
       - '**.md'
+      - '**.vue'
   # issue_comment:
   #   types: [created, deleted]
 
