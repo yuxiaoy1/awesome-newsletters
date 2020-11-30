@@ -2,7 +2,7 @@
     <div class="theme-light">
         <header>
             <button class="theme-btn" @click="toggleTheme()">🌝<span>/</span>🌚</button>
-            <a href="https://www.github.com/yuxiaoy1/awesome-newsletters/" target="_blank">
+            <a href="https://www.github.com/yuxiaoy1/awesome-newsletters" target="_blank">
                 <svg class="octicon octicon-mark-github v-align-middle" height="30" viewBox="0 0 16 16" version="1.1"
                     width="30" aria-hidden="true">
                     <path fill-rule="evenodd"
