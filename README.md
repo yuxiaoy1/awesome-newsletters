@@ -2,6 +2,8 @@
 🎉A curated list of awesome newsletters for indiehackers or people interested in side projects, product, design and growth marketing.
 
 Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?](https://www.indiehackers.com/post/what-are-the-best-newsletters-youre-subscribed-to-19d46d2007)
+
+- [Phishing Stories](https://phishingstories.beehiiv.com/) - The One Email CIOs & CISOs Actually Want Their Employees to Open.
 - [Trends.vc](http://trends.vc/) - Helping founders discover new markets and ideas
 - [Software Ideas](https://www.softwareideas.io/) - Hand-picked, validated SaaS ideas delivered straight to your inbox, with analysis of tens of thousands of companies, finding niches where bootstrappers can compete & win.
 - [The Looking Glass](https://lg.substack.com/) - A once-every-three-week essay about the work of building products, teams, and ourselves.
