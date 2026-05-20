@@ -19,6 +19,7 @@ Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?
 - [Indie Letters](https://indieletters.com/) - Bi-weekly briefing of marketing knowledge, tools & learning resources for solopreneurs, and makers.
 - [Inside Digital Products](https://insidedigitalproducts.substack.com/) - Best Practices, Lessons Learned and Reflections about what makes a great Digital Product.
 - [Toolbox Weekly](https://theprotoolbox.com/weekly/) - Stash of cool tools every week handpicked to make online life of designers, developers, & creators - easy, productive, and profitable!
+- [Creative AI News](https://www.creativeainews.com) - A free weekly newsletter covering AI tools and workflows for creative professionals across image generation, video, audio, 3D, and LLM workflows.
 - [Remote Weekly](https://www.remote.tools/work-from-home-newsletter) - The Remote Weekly goes out every Wednesday and brings to you original content, product tips and latest stories around remote working.
 - [Codrops Collective](https://tympanus.net/codrops/collective/) - The Collective features the latest news and resources from the web design & web development community shared weekly.
 - [Verse Journal](http://www.verse-co.com/) - A collection of articles and resources for designers. Weekly articles and 5 inspiration links written by Nguyen Le.
