@@ -32,3 +32,4 @@ Contributions are very welcome.
 You can [open an issue](https://github.com/Yuxiaoy1/awesome-newsletters/issues/new) or make pull requests to make this project better.
 
 If you have any question about this opinionated list, do not hesitate to [contact](https://yuxiaoy1.gitee.io/) me.
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
