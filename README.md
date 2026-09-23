@@ -26,6 +26,7 @@ Inspired by [Indie Hackers - What are the best newsletters you're subscribed to?
 - [Solo](https://solowork.co/) - A freelance business masterclass for independent designers and creatives ready for the future of work, published weekly by Benek Lisefski.
 - [Sidebar](https://sidebar.io/) - A daily curation of the five best design links on the internet. Curated by Sacha Greif.
 - [Awesome Hunt](https://collection.substack.com/) - Amazing content weekly - Curated collection of NOCODE, SAAS TOOLS, Top product hunts & much more.
+- [ExtraHustles Weekly](https://extrahustles.com/newsletter/) - Weekly side-hustle teardowns that rank gigs by real take-home pay per hour, after platform fees, taxes, and downtime.
 ### Contributing
 Contributions are very welcome.
 
